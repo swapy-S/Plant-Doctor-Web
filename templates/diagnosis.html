@@ -1,4 +1,4 @@
-<html lang="en">
+<!--<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -10,13 +10,15 @@
     <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
     <link href="{{ url_for('static', filename='css/test.css') }}" rel="stylesheet">
     <script src="{{ url_for('static', filename='js/newjs.js') }}" type="text/javascript"></script>
-</head>
+</head>-->
 
-<body>
+{% extends "import.html" %} 
+{% block content %}
+
         <div class="container py-5" align="center">
-            <img class="img-responsive" src="https://www.plantdoctor.com.au/assets/website_logo.png" alt="hello" width="400" >
+            <!--<img class="img-responsive" src="https://www.plantdoctor.com.au/assets/website_logo.png" alt="hello" width="400" >
              <p class="lead mb-0">Take care of the plants, they will take care of you.</p>
-			<div style="padding: 5%;">
+			<div style="padding: 5%;">-->
              <table class="table table-success">
 				  <thead class="thead-dark">
 				    <tr>
@@ -133,12 +135,10 @@
 					
 				  </tbody>
 				</table>
-			</div>
-			<a class="btn btn-dark btn-lg" href="/">Back</a>
-        </div>
+				</div>
+					<div align="center"><a class="btn btn-dark btn-lg" href="/">Back</a></div>
+				
+		</div>
 
 		
-   
-
-</body>
-</html>
+{% endblock %}
