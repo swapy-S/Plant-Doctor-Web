@@ -13,4 +13,4 @@ Open Browser at http://121.0.0.1:5000
 
 ## Dataset
 
-https://www.kaggle.com/emmarex/plantdisease
+https://github.com/spMohanty/PlantVillage-Dataset
